@@ -20,7 +20,11 @@ The project explores three primary tasks:
 # Repository Structure
 
 ├── collaborative.py # Collaborative filtering using Surprise
+
 ├── content_based (2).py # Content-based filtering using Cosine Similarity
+
 ├── hybrid_approach (1).py # Hybrid model combining both
+
 ├── genre_classification (2).py # Genre classifier using multi label classification
+
 └── popularity_prediction.py # Popularity prediction using regression model
