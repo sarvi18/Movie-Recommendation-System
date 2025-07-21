@@ -53,3 +53,6 @@ def recommend(movie_title, top_n=10):
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
     top_indices = [i[0] for i in sim_scores[1:top_n+1]]
     return movies.iloc[top_indices][['movieId', 'title', 'genres', 'year']]
+
+recommend("Toy Story", top_n=10)
+recommend("Batman", top_n=10)
