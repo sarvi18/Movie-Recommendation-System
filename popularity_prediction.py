@@ -8,7 +8,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.metrics import mean_squared_error, r2_score
 import category_encoders as ce
 
-df = pd.read_csv("movies.csv")
+df = pd.read_csv("movie.csv")
 
 df = df[['score', 'star', 'name', 'year', 'genre', 'director']]
 
