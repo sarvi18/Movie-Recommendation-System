@@ -20,6 +20,8 @@ The project explores three primary tasks:
 # Repository Structure
 
 - collaborative.py # Collaborative filtering using Surprise
+     - ratings.csv
+     - movies.csv # Datasets used
 
 - content_based (2).py # Content-based filtering using Cosine Similarity
 
