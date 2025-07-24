@@ -24,8 +24,13 @@ The project explores three primary tasks:
      - movies.csv # Datasets used
 
 - content_based (2).py # Content-based filtering using Cosine Similarity
+     - movies.csv
+     - tags.csv
 
 - hybrid_approach (1).py # Hybrid model combining both
+     - ratings.csv
+     - movies.csv
+     - tags.csv
 
 - genre_classification (2).py # Genre classifier using multi label classification
 
