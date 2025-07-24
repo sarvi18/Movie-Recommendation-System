@@ -33,5 +33,7 @@ The project explores three primary tasks:
      - tags.csv
 
 - genre_classification (2).py # Genre classifier using multi label classification
+     - netflix_titles.csv
 
 - popularity_prediction.py # Popularity prediction using regression model
+     - movie.csv
